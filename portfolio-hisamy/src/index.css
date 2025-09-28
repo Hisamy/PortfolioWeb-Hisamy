@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Altone;
+    src: url("../src/assets/fonts/Altone\ Trial-Regular.ttf");
+}
+
+@font-face {
+    font-family: Arsenica;
+    src: url("../src/assets/fonts/ArsenicaTrial-Regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-altone: Altone, "sans-serif";
+    --font-arsenica: Arsenica, "sans-serif";
+}
