@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import './App.css'
 import { AppHeader } from './AppHeader'
+import { Home } from './Home.jsx'
 
 function App() {
   return (
-    <>
-      <AppHeader></AppHeader>
-
-    </>
+    <div className='min-h-screen bg-background'>
+      <div className='p-4 lg:pl-8 lg:pr-8 xl:pl-12 xl:pr-12'>
+        <AppHeader></AppHeader>
+        <Home></Home>
+      </div>
+    </div>
   )
 }
 

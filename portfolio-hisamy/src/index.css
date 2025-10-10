@@ -13,4 +13,8 @@
 @theme {
     --font-altone: Altone, "sans-serif";
     --font-arsenica: Arsenica, "sans-serif";
+
+    --color-red: #9D2C2C;
+    --color-background: #F8EFE8;
+    --color-white-text: #FFFFFF;
 }
