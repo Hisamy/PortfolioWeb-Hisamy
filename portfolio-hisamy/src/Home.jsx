@@ -1,3 +1,4 @@
+import { Button } from "./Button"
 export function Home() {
     return (
         <div className="h-[calc(100vh-7rem)] bg-background">
@@ -10,9 +11,12 @@ export function Home() {
                             <p className="font-altone text-start mt-3">SOFTWARE ENGINEER</p>
                         </div>
                         <div className="w-full">
-                            <button className="font-altone text-sm bg-white text-black px-10 py-3 rounded-[50px] w-full hover:bg-background transition-colors cursor-pointer">
-                                VIEW PROJECTS
-                            </button>
+                            <Button
+                                bgColor="white"
+                                textColor="black"
+                                text="VIEW PROJECTS"
+                                action={() => alert('Clicked!')}
+                            />
                         </div>
                     </div>
 
