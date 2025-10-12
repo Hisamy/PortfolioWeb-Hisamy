@@ -3,7 +3,7 @@ export function Home() {
     return (
         <div className="h-[calc(100vh-7rem)] bg-background">
             <div className="w-full h-full bg-red flex justify-between gap-2">
-                <div className=" flex items-center justify-start">
+                <div className="flex items-center justify-start">
                     <div className="flex flex-col gap-8 ml-[70%]">
                         <div className="text-white text-center">
                             <p className="font-altone">Hola, I'm</p>
@@ -12,8 +12,8 @@ export function Home() {
                         </div>
                         <div className="w-full">
                             <Button
-                                bgColor="white"
-                                textColor="black"
+                                variant="light"
+                                size="full"
                                 text="VIEW PROJECTS"
                                 action={() => alert('Clicked!')}
                             />

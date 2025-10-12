@@ -1,6 +1,7 @@
 import { AppHeader } from './AppHeader'
 import { Home } from './Home.jsx'
 import { AboutMe } from './AboutMe.jsx'
+import { Skills } from './Skills.jsx'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <AppHeader></AppHeader>
         <Home></Home>
         <AboutMe></AboutMe>
+        <Skills></Skills>
       </div>
     </div>
   )
